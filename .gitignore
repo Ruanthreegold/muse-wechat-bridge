@@ -1,0 +1,19 @@
+# 凭证与本地状态（绝不入库）
+credentials.json
+sync.json
+contexts.json
+inbox.jsonl
+verify-code
+.local/
+
+# 本地 API 令牌与环境文件（绝不入库）
+token
+env
+
+# 登录二维码（绝不入库）
+qrcode*.png
+qr-*.png
+
+# 依赖与日志
+node_modules/
+*.log
